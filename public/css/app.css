@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+}
+
+.blue_sky{
+    background-color: #0c7cec;
+    height: 1rem;
+    margin:0;
+}
+
+/* nav bar */
+/*+++++++++*/
+
+.ul_nav *{
+    display:inline-block;
+    padding: 1rem;
+    border-bottom: 1px solid transparent;
+}
+
+.ul_nav li:hover{
+    border-bottom: 1px solid #0c7cec;
+}
+
+.ul_nav{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.show_li{
+    position: relative;
+}
+
+.show_li:hover .show_ul{
+    display:block;
+    position: absolute;
+    border: 1px solid black;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+.show_ul{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    border: none;
+    border-bottom: 2px solid #0c7cec;
+    text-align: end;
+}
+
+/* header */
+/*+++++++*/
+
+header {
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* div_simpatico */
+/*+++++++++++++++*/
+
+.piccolo {
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 31rem;
+    left:11%;
+    background-color: #0c7cec;
+}
+
+.contenitore {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2rem;
+}
+
+.card {
+    display: inline-block;
+    margin: 24px;
+    border: 1px solid transparent ;
+}
+
+.card:hover{
+    border: 1px solid gray;
+}
+
+.btn-1 {
+    background-color: #0c7cec;
+    padding: 10px;
+    width: 200px;
+    display: block;
+    color: white;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border: 1px solid transparent;
+}
+
+.btn-1:hover {
+ border: 1px solid white;
+}
+
+.blue-mid {
+    background-color: #0c7cec;
+}
+
+.flex-blueMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-blueMid {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* footer */
+/*++++++++*/
+
+footer{
+    background-image: url(../img/footer-bg.jpg);
+    color: white;
+}
+
+.destra {
+    background-image: url(../img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position:  right center;
+
+}
+
+.footer-control{
+    width: 100px;
+    display: inline-block;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer li {
+    color: gray;
+}
+
+.div-finish{
+    height: 3rem;
+    background-color: darkgray;
+}
+
+/* card_selezionata*/
+/******************/
+
+.blobs{
+    height: 2rem;
+    background-color: #0c7cec;
+    position: relative;
+}
+
+.focus{
+    height: 200px;
+    width: 200px;
+}
+
+.focus-container{
+    position: absolute;
+    left: 11%;
+    bottom: 0;
+}
+
+.green-line{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-gl{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.opt-gl{
+    border-left: 1px solid black;
+    display: inline-block;
+}
+
+.meta-main-card{
+    display: inline-block;
+}
+
+.flex-card{
+    display: flex;
+}
